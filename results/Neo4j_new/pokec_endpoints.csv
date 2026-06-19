@@ -1,0 +1,13 @@
+query_number,query,results,status,exec_time_ms,enum_time_ms
+2,MATCH (:Person{id:"696585"})-[:Knows*1..1]->(n) RETURN n LIMIT 100000,11,OK,159,421
+3,MATCH (:Person{id:"696585"})-[:Knows*1..2]->(n) RETURN n LIMIT 100000,459,OK,130,2573
+4,MATCH (:Person{id:"696585"})-[:Knows*1..3]->(n) RETURN n LIMIT 100000,23558,OK,127,29764
+5,MATCH (:Person{id:"696585"})-[:Knows*1..4]->(n) RETURN n LIMIT 100000,0,TIMEOUT,-1,-1
+6,MATCH (:Person{id:"696585"})-[:Knows*1..5]->(n) RETURN n LIMIT 100000,100000,OK,106,34590
+7,MATCH (:Person{id:"696585"})-[:Knows*1..6]->(n) RETURN n LIMIT 100000,100000,OK,106,36129
+8,MATCH (:Person{id:"696585"})-[:Knows*1..7]->(n) RETURN n LIMIT 100000,100000,OK,96,31455
+9,MATCH (:Person{id:"696585"})-[:Knows*1..8]->(n) RETURN n LIMIT 100000,100000,OK,94,28506
+10,MATCH (:Person{id:"696585"})-[:Knows*1..9]->(n) RETURN n LIMIT 100000,100000,OK,99,24572
+11,MATCH (:Person{id:"696585"})-[:Knows*1..10]->(n) RETURN n LIMIT 100000,100000,OK,89,15313
+12,MATCH (:Person{id:"696585"})-[:Knows*1..11]->(n) RETURN n LIMIT 100000,100000,OK,85,14675
+13,MATCH (:Person{id:"696585"})-[:Knows*1..12]->(n) RETURN n LIMIT 100000,100000,OK,76,15532
