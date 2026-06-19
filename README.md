@@ -1,6 +1,7 @@
-# Path Research
+# PathFinder Research
 
-Research for MSc in Evaluation of Path Queries Over Graph Databases.
+Research for the paper: [PathFinder: A unified approach for handling paths in graph query languages](https://arxiv.org/pdf/2306.02194)
+Main repository: [PathFinder Repository](https://github.com/BFFV/PathFinder)
 
 ## Benchmarking
 
