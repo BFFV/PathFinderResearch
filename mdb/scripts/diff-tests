@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo SPARQL diff:
+diff --color=auto tests/sparql/test-status.txt tests/sparql/test-status-last.txt
+echo MQL diff:
+diff --color=auto tests/mql/test-status.txt tests/mql/test-status-last.txt

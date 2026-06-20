@@ -1,0 +1,12 @@
+.wy-side-nav-search > a.icon-home {
+    font-family: Roboto-Slab-Bold;
+    font-size: 18pt;
+}
+
+.wy-nav-top > a {
+    font-family: Roboto-Slab-Bold;
+    font-size: 16pt;
+}
+
+/* https://fontawesome.com/v4/icon/database */
+.wy-side-nav-search > a.icon-home:before{content:""}

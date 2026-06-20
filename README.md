@@ -6,7 +6,9 @@ Main repository: [PathFinder Repository](https://github.com/BFFV/PathFinder)
 
 ## Benchmarking
 
-The script used to benchmark **MillenniumDB** is located here: [MDB Benchmark Script](engines/scripts/benchmark/run_mdb.py)
+The script used to benchmark **MillenniumDB** is located here: [MDB Benchmark Script](scripts/benchmark/run_mdb.py)
+
+For the script to work, make sure to first compile and setup the **MillenniumDB** database engine, following the instructions in the [MillenniumDB README](mdb/README.md). All databases must also be properly set up and located in the paths specified in the script, following the same steps as in the [Main PathFinder Repository](https://github.com/BFFV/PathFinder).
 
 The script has to be run with the following command: `python run_mdb.py [DB_NAME] [MODE] [TIMEOUT_MAX] [SEARCH_STRATEGY] [K_VALUE]`
 
